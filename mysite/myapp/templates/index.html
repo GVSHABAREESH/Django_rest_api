@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>welcome to Django application</title>
+</head>
+<body>
+<p>
+
+{% for x in data %}
+<p>name :{{ x.Name }} </p>
+<p>age:{{ x.Age}} </p>
+<p>loc:{{ x.Location }}</p>
+<p>Mobile:{{ x.Mobile }}</p>
+<hr>
+{% endfor %}
+
+</p>
+</body>
+</html>
